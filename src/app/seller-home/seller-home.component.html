@@ -21,6 +21,8 @@
                 <td>{{item.description}}</td>
                 <td>
                     <fa-icon [icon]="icon" (click)="delete(item.id)" class="cursor-pointer"></fa-icon>
+                    <a routerLink="/seller-product-update/{{item.id}}" class="ms-2 text-color-blueviolet"><fa-icon
+                            [icon]="editIcon" class="cursor-pointer"></fa-icon></a>
                 </td>
             </tr>
         </ng-container>
