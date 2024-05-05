@@ -1,0 +1,63 @@
+{
+  "seller": [
+    {
+      "id": "9674",
+      "name": "account1 123",
+      "password": "abc",
+      "email": "account1@gmail.com"
+    },
+    {
+      "id": "004b",
+      "name": "account2",
+      "password": "abc123",
+      "email": "account1@seller.com"
+    },
+    {
+      "id": "cec6",
+      "name": "Nguyen duy kien",
+      "password": "deothick",
+      "email": "email@gmail.com"
+    },
+    {
+      "id": "16df",
+      "name": "Nguyen duy kien next",
+      "password": "password",
+      "email": "email@gmail.com"
+    },
+    {
+      "id": "66cf",
+      "name": "nguyen duy kien",
+      "password": "123456",
+      "email": "ndkdzlv@gmail.com"
+    },
+    {
+      "id": "ed56",
+      "name": "nguyen duy kien",
+      "password": "1234465",
+      "email": "ngkdlkl@gmail.com"
+    },
+    {
+      "id": "0768",
+      "name": "ndk",
+      "password": "123456",
+      "email": "ndkdzkdl@gmail.com"
+    },
+    {
+      "id": "c957",
+      "name": "ndkd",
+      "password": "123123",
+      "email": "ndkdzl"
+    }
+  ],
+  "products": [
+    {
+      "id": "6e80",
+      "name": "Iphone 15",
+      "price": "150000",
+      "color": "blue violet",
+      "category": "mobile",
+      "description": "hello guys",
+      "image": "https://hanoicomputercdn.com/media/banner/04_May799bad5a3b514f096e69bbc4a7896cd9.jpg"
+    }
+  ]
+}

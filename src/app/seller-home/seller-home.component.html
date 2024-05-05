@@ -1,0 +1,31 @@
+<h1 style="text-align: center;">Product List</h1>
+<p class="message">{{message}}</p>
+<table>
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <ng-container *ngIf="productList!=undefined">
+            <tr *ngFor="let item of productList">
+                <td><img src="{{item.image}}"></td>
+                <td>{{item.name}}</td>
+                <td>{{item.color}}</td>
+                <td>{{item.category}}</td>
+                <td>{{item.description}}</td>
+                <td>
+                    <fa-icon [icon]="icon" (click)="delete(item.id)" class="cursor-pointer"></fa-icon>
+                </td>
+            </tr>
+        </ng-container>
+        <tr *ngIf="productList?.length == 0">
+            <td colspan="6" class="text-center text-color-red">Không có dữ liệu</td>
+        </tr>
+    </tbody>
+</table>

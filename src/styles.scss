@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+
+.common-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+.common-form input, .common-form textarea{
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+.common-form button{
+    height: 35px;
+    border: 1px solid blueviolet;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.field-toggle-link {
+    font-size: 16px;
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.message{
+    color: green;
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-color-red{
+    color: red !important;
+}

@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    padding: 10px;
+    min-height: 160px;
+}
+
+table td img{
+    width: 100%;
+    // height: 100px;
+}
