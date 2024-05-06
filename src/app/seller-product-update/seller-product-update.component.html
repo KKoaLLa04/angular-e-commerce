@@ -1,14 +1,19 @@
 <div class="seller-product">
     <h1>Update Product</h1>
-    <!-- <p class="message">{{message}}</p> -->
+    <p class="message">{{message}}</p>
     <form class="common-form" #updateProduct="ngForm" (ngSubmit)="submit(updateProduct.value)">
-        <input class="form-input" type="text" ngModel name="name" placeholder="Enter product name...">
-        <input class="form-input" type="text" ngModel name="price" placeholder="Enter product price...">
-        <input class="form-input" type="text" ngModel name="color" placeholder="Enter product color...">
-        <input class="form-input" type="text" ngModel name="category" placeholder="Enter product category...">
-        <textarea class="form-textarea" type="text" ngModel name="description"
+        <input class="form-input" type="text" ngModel="{{productDetail?.name}}" name="name"
+            placeholder="Enter product name...">
+        <input class="form-input" type="text" ngModel="{{productDetail?.price}}" name="price"
+            placeholder="Enter product price...">
+        <input class="form-input" type="text" ngModel="{{productDetail?.color}}" name="color"
+            placeholder="Enter product color...">
+        <input class="form-input" type="text" ngModel="{{productDetail?.category}}" name="category"
+            placeholder="Enter product category...">
+        <textarea class="form-textarea" type="text" ngModel="{{productDetail?.description}}" name="description"
             placeholder="Enter product description..."></textarea>
-        <input type="text" class="form-input" ngModel name="image" placeholder="Enter product image...">
+        <input type="text" class="form-input" ngModel="{{productDetail?.image}}" name="image"
+            placeholder="Enter product image...">
         <button class="form-button" type="submit">Update</button>
     </form>
 </div>
